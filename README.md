@@ -1,22 +1,22 @@
 # Bizz Cleaners Website
 
-Full stack website for a local dry cleaners, to help them attract customers.
+Full-stack website for a local dry cleaner to help them attract customers.
 <br>
 <b>[Link to website](https://www.bizzclean.com/)</b>
 
 
-## Features
-- Showcases the best of Bizz Cleaners work through professional photography and copywriting
-- Gives users a way to access the online portal
-- Displays business hours and rating information directly from Google business profile
-- Lets user validate zip code before choosing to sign up
-- Mobile first responsive design
-
 ## Impact
-- Replaced old template website solo over 6 months
-- Decreased 10s bounce rate from 35% to 7.5% (GA4)
-- Increased CTR from 1.5% to 3.2%
-- Fixed over 10 usability issues through testing and review
+- Raised user engagement from 54% to 92% by migrating off Google Sites and rebuilding the site using React and Node.js
+- Increased generated leads per month from 1 to 15 by adopting a user-centered design approach, interviewing stakeholders, utilizing iterative design principles, and facilitating usability tests
+- Boosted website discoverability, as measured by an increase in Google CTR from 1.4\% to 2.6\% and a search rank improvement from 18 to 12, by writing semantic HTML, generating sitemaps, and configuring Google Search Console
+- Automated updates to dynamic site content (Google Business rating, delivery zones), eliminating manual maintenance by integrating with Google Places and CleanCloud Point of Sale (POS) RESTful APIs
+- Led all SDLC activities to publish the site, including  planning, design, development, deployment, and maintenance
+
+## Features
+- Showcases the best of Bizz Cleaners' work through professional photography and copywriting
+- Gives users a way to view store hours, validate zip code for delivery, and access the online portal
+- Displays business hours and rating information directly from Google Business Profile
+- Mobile-first responsive design, accommodating all types of screen sizes.
 
 ## Tech
 React · TypeScript · Tailwind CSS · Express.js · REST API
