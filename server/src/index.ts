@@ -42,6 +42,8 @@ app.get("/api/get/business-information", async (req: Request, res: Response<Busi
         throw new Error("Could not find business data");
     }
 
+    console.log(businessInformationCache.regularOpeningHours.periods)
+
     res.json({rating: businessInformationCache.rating,
         userRatingCount: businessInformationCache.userRatingCount,
         hoursOfOperation: businessInformationCache.regularOpeningHours.weekdayDescriptions,
@@ -97,4 +99,4 @@ app.post("/api/validate-zip", (req: Request, res: Response<validationResponse>) 
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(Number(PORT), '0.0.0.0', () => console.log('Server online on port ' + PORT));
+app.listen(Number(PORT), '127.0.0.1', () => console.log('Server online on port ' + PORT));
